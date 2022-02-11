@@ -61,7 +61,7 @@ class OrderIntegrationTest {
         RestaurantDto restaurantRequest = RestaurantDto.builder()
                 .id(null)
                 .name("쉐이크쉑 청담점")
-                .minOrderPrice(5000)
+                .minOrderPrice(7000)
                 .deliveryFee(2000)
                 .build();
 
